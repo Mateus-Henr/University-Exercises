@@ -7,7 +7,7 @@ Created on Tue Aug 17 09:36:18 2021
 
 a = b = c = d = e = maiorOtimo = menorRuim = totalIdade = maiorPess = 0
 
-for _ in range(5):
+for _ in range(1):
     idade = int(input("Idade: "))
     nota = str(input("Nota: "))
     
@@ -31,8 +31,7 @@ for _ in range(5):
         if idade > maiorPess:
             maiorPess = idade
     else:
-        print("Inválida. Digite novamente.")
-        continue
+        print("Inválida.")
 
 total = a + b + c + d + e
 

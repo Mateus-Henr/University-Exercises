@@ -10,6 +10,7 @@ for x in range(10):
     
     if num < 0:
         print("Negativo não aceito.")
+        x -= 1
         continue
     else:
         print("Raiz quadrada de {} é {}".format(num, num ** (1/2)))

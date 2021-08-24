@@ -5,8 +5,7 @@ Created on Tue Aug 17 11:07:50 2021
 @author: Mateus Henrique
 """
 
-x = int(input("Digite o valor de x: "))
-x = x / 180
+x = (int(input("Digite o valor de x: ")) / 180)
 sen = x
 y = 0
 
