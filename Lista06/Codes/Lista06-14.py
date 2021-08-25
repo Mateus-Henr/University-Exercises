@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 23 22:13:29 2021
-
-@author: Mateus Henrique
-"""
-
 vetor = []
 while True: 
     x = str(input("ID e Valor ex(23 4,00): "))
