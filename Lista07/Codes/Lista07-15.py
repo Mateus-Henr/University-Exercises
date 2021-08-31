@@ -6,6 +6,7 @@ while True:
     break
 
 vetor = [int(input("Num: ")) for x in range(qtd)]
+v = []
 
 loop = True
 while loop:
@@ -18,7 +19,8 @@ while loop:
             loop = True
 
 for x in vetor:
-    if vetor.count(x) > 1:
+    if vetor.count(x) > 1 and not x in v:
         print("Elemento {} aparece {} veze(s)".format(x, vetor.count(x)))
+        v.append(x)
 
 print("Vetor: {}".format(vetor))
