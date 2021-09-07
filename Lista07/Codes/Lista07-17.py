@@ -7,7 +7,7 @@ for _ in range(qtd):
     while True:
         num = int(input("ID: "))
         if num >= 1 and num <= 100:
-            precos[num] = float(input("Preço: "))
+            precos[num] = float(input("Preço: R$"))
             qtds[num] = int(input("Quantidade: "))
             total += precos[num] * qtds[num]
             break

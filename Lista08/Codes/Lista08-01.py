@@ -1,0 +1,1 @@
+print([[int(input(f"{i}° lin | {j}° col - Num: ")) for j in range(5)] for i in range(5)][4][4])

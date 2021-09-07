@@ -1,4 +1,4 @@
-tempos = [int(input("{}Â° Corredor - Tempo: ".format(x + 1))) for x in range(10)]
+tempos = [int(input("{}° Corredor - Tempo: ".format(x + 1))) for x in range(10)]
 clas = [x for x in tempos]
 
 loop = True
@@ -11,4 +11,4 @@ while loop:
             clas[x + 1] = temp
             loop = True
 
-[print("{}Â° Num: {} - Tempo: {}s".format((x + 1), tempos.index(clas[x]), clas[x])) for x in range(len(clas))]
+[print("{}° Num: {} - Tempo: {}s".format((x + 1), tempos.index(clas[x]), clas[x])) for x in range(len(clas))]

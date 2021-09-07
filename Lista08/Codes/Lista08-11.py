@@ -1,0 +1,2 @@
+a, b = [[[int(input(f"{'a' if x == 0 else 'b'}-{i}° lin | {j}° col - Num: ")) for j in range(5)] for i in range(5)] for x in range(2)]
+print([[(a[i][j] - b[i][j]) for j in range(len(a[i]))] for i in range(len(a))])

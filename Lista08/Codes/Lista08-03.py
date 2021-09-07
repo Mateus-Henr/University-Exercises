@@ -1,0 +1,1 @@
+print([[[int(z) if int(z) % 2 == 0 else int(z) * 2 for z in input(f"{i}° lin | {j}° col - Num: ").split()][0] for j in range(5)] for i in range(7)])
