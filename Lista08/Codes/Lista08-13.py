@@ -6,5 +6,5 @@ for i in range(len(m)):
     for j in range(len(m[i])):
         vetorSL[i][0] += m[i][j]
 
-[print(f"{x + 1}° lin - Soma: {vetorSL[x]}") for x in range(len(vetorSL))]
+[print(f"{x + 1}° lin - Soma: {vetorSL[x][0]}") for x in range(len(vetorSL))]
 print(f"Vetor: {vetorSL}")

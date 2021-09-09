@@ -10,5 +10,4 @@ for mes in range(len(loja)):
 print(f"Ano: R${tot}")
 for i in range(len(loja)):
     print(f"{i + 1}° Mês: R${m[i]}")
-    for j in range(len(loja[i])):
-        print(f"  {j + 1}° Sem: R${loja[i][j]}")
+    for j in range(len(loja[i])): print(f"  {j + 1}° Sem: R${loja[i][j]}")
