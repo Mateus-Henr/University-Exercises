@@ -1,0 +1,1 @@
+print(f"Qtd palavras = {len(input().split())}")

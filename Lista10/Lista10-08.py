@@ -1,0 +1,1 @@
+print(input("Placa: ")[2])
