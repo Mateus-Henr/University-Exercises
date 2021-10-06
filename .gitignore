@@ -1,3 +1,7 @@
 *.pdf
 /*.pdf
 */*.pdf
+*cmake-build-debug*
+**/.idea/**
+**/*.iml
+**/out/**
