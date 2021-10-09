@@ -3,9 +3,9 @@
 
 int isPrime(int n)
 {
-    int isPrime = 1, i = 0;
+    int isPrime = 1;
 
-    for (i = 2; i < n; i++)
+    for (int i = 2; i < n; i++)
     {
         if (n % i == 0)
         {

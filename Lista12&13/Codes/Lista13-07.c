@@ -1,30 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int sumGrades(double * grades)
+{
+    double sum = 0;
+
+    for (int j = 0; j < 5; j++)
+    {
+        sum += grades[j];
+    }
+
+    return sum > 60 ? 1 : 0;
+}
+
 int main()
 {
-    int grades[10][5];
+    double grades[10][5];
 
     for (int i = 0; i < 10; i++)
     {
-        double sum = 0;
-
-        for (int j = 0; j < 10; j++)
+        for (int j = 0; j < 5; j++)
         {
             printf("%d l | %d col:", i, j);
-            scanf("%d", &grades[i][j]);
-            sum += grades[i][j];
+            scanf("%lf", &grades[i][j]);
         }
 
-        if (sum > 60)
+        if (sumGrades(grades[i]))
         {
-            printf("Student %d approved.\n", i);
+            printf("\nThe student %d has been approved.", i + 1);
         }
         else
         {
-            printf("Student %d failed.\n", i);
+            printf("\nThe student %d has failed.", i + 1);
         }
     }
+
 
     system("PAUSE");
     return 0;

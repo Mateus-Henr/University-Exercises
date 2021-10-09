@@ -22,7 +22,6 @@ void calcRoots(double a, double b, double c)
 
         printf("The roots of the equation are x1 = %lf and x2 = %lf\n", x1, x2);
     }
-
 }
 
 int main()

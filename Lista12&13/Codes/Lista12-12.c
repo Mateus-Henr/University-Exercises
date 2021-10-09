@@ -4,7 +4,6 @@
 int main()
 {
     int n = 10;
-
     int v[n], inv[n];
 
     for (int i = 0; i < n; i++)
