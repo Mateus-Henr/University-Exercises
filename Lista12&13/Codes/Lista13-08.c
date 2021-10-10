@@ -8,7 +8,7 @@ double mToFeet(double m)
 
 int main()
 {
-    double p = 0, r = 0;
+    double p = 0.0;
     printf("Meters:");
     scanf("%lf", &p);
 

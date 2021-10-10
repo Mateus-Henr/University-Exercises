@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int sumGrades(double * grades)
+int sumGrades(double *grades)
 {
-    double sum = 0;
+    double sum = 0.0;
 
     for (int j = 0; j < 5; j++)
     {
         sum += grades[j];
     }
 
-    return sum > 60 ? 1 : 0;
+    return sum >= 60 ? 1 : 0;
 }
 
 int main()
@@ -34,7 +34,6 @@ int main()
             printf("\nThe student %d has failed.", i + 1);
         }
     }
-
 
     system("PAUSE");
     return 0;
