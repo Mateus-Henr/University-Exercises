@@ -3,13 +3,16 @@
 
 void multipleOfFive(int currNum, int end)
 {
-    if (currNum > end)
+    if (currNum >= end)
     {
         return;
     }
 
-    printf("%d\n", currNum);
-    multipleOfFive((currNum + 5), end);
+    if ((currNum % 5) == 0)
+    {
+        printf("%d\n", currNum);
+    }
+    multipleOfFive((currNum + 1), end);
 }
 
 int main()
